@@ -7,7 +7,7 @@ var bloodSampleSchema = new mongoose.Schema({
   },
   quantity_in_ml: { type: Number, required: true },
   bag_no: { type: String },
-  status: { type: String, default: "available" },
+  status: { type: String, default: "Available" },
   date_of_donation: { type: Date, default: Date.now },
   donor: {
     type: mongoose.Schema.Types.ObjectId,

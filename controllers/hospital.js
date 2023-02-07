@@ -151,7 +151,7 @@ const getBloodSampleByHospital = asyncHandler(async (req, res) => {
     const bloodSamples = await BloodSample.find({
       hospital: req.user.user_id,
     })
-      .populate("hospital", "name")
+      .populate("blood_bank", "name")
       .populate("donor", "dname dcontact_no");
 
     // Return new information of inserted blood sample
