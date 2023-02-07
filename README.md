@@ -331,7 +331,7 @@ response:
   
 #### DELETE /hospital/bloodSample/63e23cc6adfbcc8433e3285d
 
-Update Blood Sample Information (Only Accessible to respective hospital)
+Delete Blood Sample Information (Only Accessible to respective hospital)
 ```
 headers:
 Authorization: Bearer Token
